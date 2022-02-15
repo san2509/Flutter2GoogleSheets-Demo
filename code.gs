@@ -1,6 +1,6 @@
 function doGet(request){
   // Open Google Sheet using ID
-  var sheet = SpreadsheetApp.openById("1OOArrqjOqmD4GiJOWlluZ4woTMH_qaV6RKv4JXnT3Hk");
+  var sheet = SpreadsheetApp.openById("1dFQn3ywHCPlqtX68BJo3jGgz2z7Sn5jDYPfZYm343Uk");
 
   // Get all values in active sheet
   var values = sheet.getActiveSheet().getDataRange().getValues();
@@ -31,7 +31,7 @@ function doGet(request){
 
 function doPost(request){
   // Open Google Sheet using ID
-  var sheet = SpreadsheetApp.openById("1OOArrqjOqmD4GiJOWlluZ4woTMH_qaV6RKv4JXnT3Hk");
+  var sheet = SpreadsheetApp.openById("1dFQn3ywHCPlqtX68BJo3jGgz2z7Sn5jDYPfZYm343Uk");
   var result = {"status": "SUCCESS"};
   try{
     // Get all Parameters
